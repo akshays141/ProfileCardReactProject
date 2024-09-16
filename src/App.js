@@ -1,23 +1,19 @@
-import logo from './logo.svg';
+
 import './App.css';
+import Profilecard from './Profilecard';
 
 function App() {
+
+  const user={
+    name:'Ganesh',
+    age:30,
+    location:'karve nagar, Pune',
+    bio:'Software developer with a passion for building web app. Software developers design and write code for new software applications.'
+  }
+
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+       <Profilecard name={user.name} age={user.age} location={user.location} bio={user.bio}/>
     </div>
   );
 }

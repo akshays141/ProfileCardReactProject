@@ -1,0 +1,22 @@
+
+
+
+.profile-card p {
+    color: #666;
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  
+.profile-card button{
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+  }
+
+  .profile-card button:hover {
+    background-color: #0b09a0;
+  }
